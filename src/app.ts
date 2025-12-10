@@ -27,12 +27,12 @@ const student2:Student={
 }
 
 function showStudentInfo(student:Student): void{
-    console.log(`Name: ${student2.name}`);
-    console.log(`Age: ${student2.age}`);
-    console.log(`Student: ${student2.isStudent}`);
-    console.log(`Learn: ${student2.learn}`);
-    console.log(`Score: ${student2.score}`);
-    console.log(`Info: ${student2.info}`);
+    console.log(`Name: ${student1.name}`);
+    console.log(`Age: ${student1.age}`);
+    console.log(`Student: ${student1.isStudent}`);
+    console.log(`Learn: ${student1.learn}`);
+    console.log(`Score: ${student1.score}`);
+    console.log(`Info: ${student1.info}`);
 }
-showStudentInfo(student2)
+showStudentInfo(student1)
 
